@@ -33,16 +33,16 @@ public class ApplicationPanel implements Mediator {
             this.redButton = (Button) component;
             break;
         case "Blue":
-            this.blueButton = (Button) component;
+            // TODO
             break;
         case "Yellow":
-            this.yellowButton = (Button) component;
+            // TODO
             break;
         case "Undo":
-            this.undoButton = (UndoButton) component;
+            // TODO
             break;
         case "TextField":
-            this.textField = (TextField) component;
+            // TODO
             break;
         }
     }
@@ -50,10 +50,10 @@ public class ApplicationPanel implements Mediator {
     @Override
     public void createGUI() {
         this.panel.add(redButton);
-        this.panel.add(blueButton);
-        this.panel.add(yellowButton);
-        this.panel.add(undoButton);
-        this.panel.add(textField);
+        // TODO
+        // TODO
+        // TODO
+        // TODO
     }
 
     @Override

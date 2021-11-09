@@ -24,7 +24,7 @@ public class UndoButton extends JButton implements Component, ActionListener {
      */
     @Override
     public void setMediator(Mediator mediator) {
-        this.mediator = mediator;
+        // TODO
     }
 
     /**
@@ -43,7 +43,7 @@ public class UndoButton extends JButton implements Component, ActionListener {
      */
     @Override
     public void actionPerformed(ActionEvent e) {
-        this.mediator.undo();
+        // TODO
     }
 
 }

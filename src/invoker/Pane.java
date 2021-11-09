@@ -18,7 +18,7 @@ public class Pane extends JPanel {
 
     public Pane() {
         // Init mediator
-        Mediator mediator = new ApplicationPanel(this);
+        Mediator mediator = // TODO
 
         // Init components
         Button redButton = new Button("Red");
@@ -29,17 +29,17 @@ public class Pane extends JPanel {
 
         // Set commands
         redButton.setCommand(new RedCommand(this));
-        blueButton.setCommand(new BlueCommand(this));
-        yellowButton.setCommand(new YellowCommand(this));
+        // TODO
+        // TODO
 
         // Register components
         mediator.registerComponent(redButton);
-        mediator.registerComponent(blueButton);
-        mediator.registerComponent(yellowButton);
-        mediator.registerComponent(undoButton);
-        mediator.registerComponent(textField);
+        // TODO
+        // TODO
+        // TODO
+        // TODO
 
         // Create UI
-        mediator.createGUI();
+        // TODO
     }
 }

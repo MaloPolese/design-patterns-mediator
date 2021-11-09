@@ -27,7 +27,7 @@ public class Button extends JButton implements Component, ActionListener {
      */
     @Override
     public void setMediator(Mediator mediator) {
-        this.mediator = mediator;
+        // TODO
     }
 
     /**
@@ -36,7 +36,7 @@ public class Button extends JButton implements Component, ActionListener {
      * @param command The command performed
      */
     public void setCommand(Command command) {
-        this.command = command;
+        // TODO
     }
 
     /**
@@ -55,7 +55,7 @@ public class Button extends JButton implements Component, ActionListener {
      */
     @Override
     public void actionPerformed(ActionEvent e) {
-        this.mediator.executeCommand(this.command);
+        // TODO
     }
 
 }

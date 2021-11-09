@@ -27,7 +27,7 @@ public class TextField extends JTextField implements Component {
      */
     @Override
     public void setMediator(Mediator mediator) {
-        this.mediator = mediator;
+        // TODO
     }
 
     /**
@@ -35,7 +35,7 @@ public class TextField extends JTextField implements Component {
      * the different components
      */
     public String getName() {
-        return this.name;
+        // TODO
 
     }
 
@@ -46,7 +46,7 @@ public class TextField extends JTextField implements Component {
      */
     @Override
     protected void processComponentKeyEvent(KeyEvent keyEvent) {
-        mediator.textChange();
+        // TODO
     }
 
 }
